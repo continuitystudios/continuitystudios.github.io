@@ -27,6 +27,7 @@ a.wh:link {
 }
 a.wh:visited {
   text-decoration: none;
+  color: #eeeeee;
 }
 a.wh:hover {
   text-decoration: underline;
