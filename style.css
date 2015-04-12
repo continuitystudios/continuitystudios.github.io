@@ -6,8 +6,9 @@ html {
 body {
   background-color: #080808;
   color: #dddddd;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 100px;
+  font-family: Helvetica, sans-serif; /* Not so very much original at all */
 }
 
 .footer {
@@ -18,7 +19,17 @@ body {
 }
 
 h1 {
+  font-size: 3.5em;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 30px;
+}
+
+p.largebottom {
+  margin-bottom: 30px;
+}
+
+.align-justify {
+  text-align: justify;
 }
 
 a.wh:link {
