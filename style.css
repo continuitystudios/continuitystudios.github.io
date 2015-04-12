@@ -21,17 +21,17 @@ h1 {
   margin-bottom: 30px;
 }
 
-a:link {
+a.wh:link {
   text-decoration: none;
   color: #ffffff;
 }
-a:visited {
+a.wh:visited {
   text-decoration: none;
 }
-a:hover {
+a.wh:hover {
   text-decoration: underline;
 }
-a:active {
+a.wh:active {
   text-decoration: underline;
 }
 
