@@ -9,29 +9,42 @@ body {
   margin-top: 20px;
   margin-bottom: 100px;
   font-family: 'Helvetica', Arial, sans-serif; /* Not so very much original at all */
+  line-height: 160%;
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 130px;
+@media (min-width: 1200px) { /* Override Bootstrap's max-width for >1200px screens */
+  .container {
+    width: 950px;
+  }
 }
 
 h1 {
-  margin-top: 30px;
-  margin-bottom: 50px;
-  font-size: 3.5em;
+  margin-top: 60px;
+  margin-bottom: 70px;
+  font-size: 3.3em;
   font-weight: 300;
   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+p {
+  margin-bottom: 2.6em;
+}
+
+p.smallbottom {
+  margin-bottom: 8px;
+}
+
 p.largebottom {
-  margin-bottom: 30px;
+  margin-bottom: 2.6em;
 }
 
 .align-justify {
   text-align: justify;
+}
+
+.additional-padding {
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .strongishtext {
@@ -41,6 +54,14 @@ p.largebottom {
 .strongtext {
   color: #ffffff;
   font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 1.0em;
 }
 
 a.wh:link {
@@ -58,6 +79,21 @@ a.wh:active {
   text-decoration: underline;
 }
 
+a.clink:link {
+  text-decoration: none;
+  color: #FF5333;
+}
+a.clink:visited {
+  text-decoration: none;
+  color: #DD5353;
+}
+a.clink:hover {
+  text-decoration: underline;
+}
+a.clink:active {
+  text-decoration: underline;
+}
+
 a.nodecor {
   text-decoration: none;
   color: inherit;
@@ -65,6 +101,14 @@ a.nodecor {
 
 .smalltext {
   font-size: 0.75em;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 100px;
+  margin-bottom: 10px;
 }
 
 @font-face {
