@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-color: #080808;
+  background-color: #0d0d0d;
   color: #dddddd;
   margin-top: 20px;
   margin-bottom: 100px;
@@ -30,6 +30,11 @@ p.largebottom {
 
 .align-justify {
   text-align: justify;
+}
+
+.strongtext {
+  color: #ffffff;
+  font-weight: bold;
 }
 
 a.wh:link {
