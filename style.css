@@ -35,6 +35,11 @@ a:active {
   text-decoration: underline;
 }
 
+a.nodecor {
+  text-decoration: none;
+  color: inherit;
+}
+
 .smalltext {
   font-size: 0.75em;
 }
