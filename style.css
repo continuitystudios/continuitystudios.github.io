@@ -30,6 +30,10 @@ p {
   margin-bottom: 2.6em;
 }
 
+strong {
+  color: #ffffff;
+}
+
 p.smallbottom {
   margin-bottom: 8px;
 }
